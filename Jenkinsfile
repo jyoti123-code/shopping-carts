@@ -28,7 +28,7 @@ pipeline{
     
     post{
         always{
-            echo 'this pipeline is for shopping-portal application...'
+            echo 'this pipeline is for shopping-cart application...'
         }
         
     }
