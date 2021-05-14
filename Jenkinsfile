@@ -16,12 +16,12 @@ pipeline{
         }
         stage('test'){
             steps{
-                sh 'npm test'
+                sh 'mvn test'
             }
         }
         stage('package'){
             steps{
-                sh 'npm run package'
+                sh 'mvn package -DskipTests''
             }
         }
     }
